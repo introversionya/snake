@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function (e) {
   const ctx = canvas.getContext("2d");
 
   let cell = 15; // Размер ячейки
-  let speed = 1000; // Скорость движения змейки
+  let speed = 300; // Скорость движения змейки
   let score = 0; // Счет
   let stop = true;
 
